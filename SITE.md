@@ -34,6 +34,8 @@
 
 ## Recent Changes
 
+- March 2026: Added open source images to Simple, Fast, and Flexible feature cards (from Unsplash)
+- March 2026: Added terminal window graphic to hero section with blinking cursor
 - March 2026: Redesigned with retro terminal aesthetic using Space Mono font, dark color scheme, and code-editor styling
 
 ## How to Customize
