@@ -160,6 +160,49 @@ main {
   color: var(--color-text-muted);
 }
 
+.hero h1 strong {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.hero h1 .dash {
+  color: var(--color-accent-secondary);
+}
+
+.hero h1 .glow {
+  color: var(--color-accent);
+  text-shadow:
+    0 0 10px rgba(100, 255, 218, 0.8),
+    0 0 20px rgba(100, 255, 218, 0.6),
+    0 0 30px rgba(100, 255, 218, 0.4);
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    text-shadow:
+      0 0 10px rgba(100, 255, 218, 0.8),
+      0 0 20px rgba(100, 255, 218, 0.6),
+      0 0 30px rgba(100, 255, 218, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 20px rgba(100, 255, 218, 1),
+      0 0 40px rgba(100, 255, 218, 0.8),
+      0 0 60px rgba(100, 255, 218, 0.6);
+  }
+}
+
+.hero h1 .blink {
+  color: var(--color-accent-secondary);
+  animation: blink 1s step-end infinite;
+}
+
 .hero-content p {
   font-size: 1rem;
   color: var(--color-text-muted);
